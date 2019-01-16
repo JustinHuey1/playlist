@@ -17,7 +17,7 @@ h1 {
 #images img {
     display: block;
     height: 100px;
-    width: auto;
+    width: 150px;
     margin: 20px;
 }
 
@@ -64,4 +64,10 @@ input {
 button {
     font-size: 14px;
     padding: 5px 10px;
+}
+
+#links{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
 }

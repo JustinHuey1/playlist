@@ -50,7 +50,7 @@ function displaySongInfo(){
         $("#images").append("<img src=" + picture + ">");
     });
     links.forEach(function(url) {
-        $("#links").append("<a href=" + url);
+        $("#links").append("<a href= " + url + ">" + "link" + "</a>");
     });
     
 }
@@ -83,6 +83,11 @@ $("#add").click(function() {
     emptySongInfo();
     addSongInfo();
     displaySongInfo();
+    $("#song").val("");
+    $("#artist").val("");
+    $("#length").val("");
+    $("#image").val("");
+    $("#link").val("");
 });
 
 displaySongInfo();
