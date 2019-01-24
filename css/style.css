@@ -10,7 +10,7 @@ h1 {
 }
 
 .column {
-    width: 18%;
+    width: 15%;
     padding: 25px 0px;
 }
 
@@ -38,7 +38,6 @@ h1 {
     font-size: 16px;
     height: 100px;
     margin: 20px;
-    text-align: right;
 }
 
 #links a {
@@ -46,7 +45,7 @@ h1 {
     font-size: 18px;
     height: 100px;
     font-weight: bold;
-     margin: 20px;
+    margin-top: 19px;
   
 }
 
@@ -71,3 +70,4 @@ button {
     width: 25px;
     margin: 5px;
 }
+
